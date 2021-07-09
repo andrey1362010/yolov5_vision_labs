@@ -11,10 +11,10 @@ from boosters.classificator.dataset import load_labels, HandDataset, MAX_IMAGES,
     load_other_labels, test_train_split, collacate
 
 LABELS_PATH = "/media/andrey/big/downloads/train.csv"
-IMAGES_OTHER_PATH = "/media/andrey/big/preprocess/HANDS_CROPPED_OTHER"
+#IMAGES_OTHER_PATH = "/media/andrey/big/preprocess/HANDS_CROPPED_OTHER"
 IMAGES_PATH = "/media/andrey/big/preprocess/HANDS_CROPPED_2"
 labels = load_labels(IMAGES_PATH, LABELS_PATH)
-labels_other = load_other_labels(IMAGES_OTHER_PATH)
+#labels_other = load_other_labels(IMAGES_OTHER_PATH)
 
 # random.shuffle(labels)
 # TEST_SPLIT = 30_000
