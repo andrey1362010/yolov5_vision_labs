@@ -116,8 +116,8 @@ if __name__ == '__main__':
 
     imgs = ['data/images/zidane.jpg',  # filename
             'https://github.com/ultralytics/yolov5/releases/download/v1.0/zidane.jpg',  # URI
-            cv2.imread('data/images/bus.jpg')[:, :, ::-1],  # OpenCV
-            Image.open('data/images/bus.jpg'),  # PIL
+            cv2.imread('data2/images/bus.jpg')[:, :, ::-1],  # OpenCV
+            Image.open('data2/images/bus.jpg'),  # PIL
             np.zeros((320, 640, 3))]  # numpy
 
     results = model(imgs)  # batched inference

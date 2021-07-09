@@ -1,0 +1,1 @@
+sudo docker container run --rm --gpus all -it -v /home/andrey/IdeaProjects/yolov5/:/workspace/ -v  /media/andrey/big/downloads/train:/workspace/data/:ro -w /workspace/ f8509 bash
